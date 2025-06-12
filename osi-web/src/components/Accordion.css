@@ -1,0 +1,40 @@
+.accordion {
+    border: 1px solid #A6A6A6;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-weight: 700;      /* negrita */
+    letter-spacing: 0.03em; /* un poco de espacio entre letras */
+    font-size: 1.3rem;
+}
+
+.accordion-button:hover span {
+    color: #4E6A5B; /* azul suave al pasar el mouse */
+    transition: color 0.3s ease;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    margin-top: 1rem;
+}
